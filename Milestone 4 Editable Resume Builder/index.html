@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Editable Resume Builder</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    <h1>Editable Resume </h1>
+    <form id="Resume">
+        
+        <fieldset>
+            <h2>Personal Information</h2>
+            <!-- fisrt-name -->
+             <div class="Personal">
+             <Label for="name"> First-Name</Label>
+            <input type="text" id="f-Name" placeholder="Enter your first name" requiried>
+
+            <!-- Last-Name -->
+            <Label for="name"> Last-Name</Label>
+            <input type="text" id="l-Name" placeholder="Enter your last name" requiried>
+
+            <!-- Father Name -->
+
+            <Label for="name"> Father-Name</Label>
+            <input type="text" id="father-Name" placeholder="Enter your  father name" requiried>
+
+            <!-- address -->
+            
+            <Label for="email">Address</Label>
+            <input type="address" id="address" placeholder="Enter your address" requiried>
+           
+        
+
+            <!-- email -->
+            
+            <Label for="email">Email</Label>
+            <input type="email" id="email" placeholder="Enter your email address" requiried>
+           
+            <!-- phone -->
+            <Label for="email">Phone Number</Label>
+            <input type="phone" id="phone" placeholder="Enter your phone number" requiried>
+        </div>
+           
+        </fieldset>
+        
+<br>
+<br>
+        <fieldset>
+       <div class="infor">
+            <!-- About you -->
+            
+             <Label for="about"> About you</Label>
+             <br>
+             <textarea id="about"placeholder="About" rows="5" required></textarea>
+            </fieldset>
+        
+<br><br>
+        <fieldset>
+            <!-- Education -->
+        
+             <Label for="education"> Education</Label>
+             <br>
+             <textarea id="education"placeholder="Enter you education" rows="5" required></textarea>
+             
+        </fieldset>
+<br><br>
+        <fieldset>
+            <!-- Skills -->
+            
+            <Label for="skills">Skills</Label>
+            <br>
+            <textarea id="skills"placeholder="Enter you skills" rows="5" required></textarea>
+            
+        </fieldset>
+<br><br>
+        <fieldset>
+
+            <!-- Experience -->
+            
+            <Label for="experience">Experience</Label>
+            <br>
+            <textarea id="experience"placeholder="Enter you experience" rows="5" required></textarea>
+        </div>
+        </fieldset>
+        
+        <button type="submit"> Builder Resume</button>
+    </form>
+
+    <!--  Editable Resume Builder -->
+    <br>
+    <div id="resume-display"contenteditable="true">
+        <!-- Resume -->
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
